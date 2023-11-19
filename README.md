@@ -10,24 +10,24 @@ My main focus was to design a simple blog post website for a fictitious company 
 
 This was mainly to help me have a clear idea of what the mood, fonts and brand were going to be like when creating my website. 
 
-##Features
+## Features
 Calculates the date of Easter based on the input year.
 Provides two output formats: numeric and verbose.
 Outputs HTML content for integration with web applications.
 
-###CGI Form Handling
+### CGI Form Handling
 The script uses the CGI module to handle form data submitted through an HTML form. The following fields are expected:
 
 - year: The input year for which the Easter date is to be calculated.
 - username: The username of the user making the calculation.
 - format: The desired output format ('numerically', 'verbose', or any other value for both formats).
 
-###Easter Calculation Functions
+### Easter Calculation Functions
 The script contains two functions for Easter date calculation:
 
 - Easternum(y): Returns the Easter date in numeric format.
 - Eastermonth(y): Returns the Easter date in verbose format.
 
-###HTML Output
+### HTML Output
 The HTML output is generated based on the selected output format. The script includes headers, stylesheets, and a message displaying the calculated Easter date.
 

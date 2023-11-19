@@ -31,6 +31,6 @@ The script contains two functions for Easter date calculation:
 ### HTML Output
 The HTML output is generated based on the selected output format. The script includes headers, stylesheets, and a message displaying the calculated Easter date.
 
-###Demo:
+### Demo:
 You can look at how my website functions using the following link: https://youtu.be/CEtKwfRCVvQ 
 

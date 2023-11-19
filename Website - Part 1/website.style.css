@@ -1,0 +1,378 @@
+.paragraph{
+  font-size: 15px;
+  line-height: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+
+@font-face {
+  src:url(Fonts/FredokaOne-Regular.ttf);
+  font-family: Fredoka;
+}
+
+.Title{
+  font-size: 50px;
+  line-height: 62px;
+  font-family: Fredoka;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.reference{
+  font-size: 10px;
+  font-family:'Poppins', sans-serif;
+  font-style: italic;
+  line-height: 62px;
+  font-weight: 400;
+  color: #949598;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: rgb(0, 0, 0);
+}
+
+
+.banner{
+  width: float;
+  max-width: 100%;
+  height: 100vh;
+  background-image: url(home-background.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.bannerpython{
+  width: 100%;
+  max-width: 100%;
+  min-width: 20%;
+  height: 100vh;
+  background-image: url(python-background.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.bannerhello{
+  width: 100%;
+  height: 100vh;
+  background-image: url(hello-background.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.bannernews{
+  width: 100%;
+  height: 100vh;
+  background-image: url(news-background.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.bannerref{
+  width: 100%;
+  height: 100vh;
+  background-image: url(reference-background.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.bannercalculator{
+  width: 100%;
+  height: 100vh;
+  background-image: url(calculator-background.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar{
+  width: 85%;
+  margin:auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 120px;
+  cursor: pointer;
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 40px;
+  position: relative;
+}
+
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #20E2D7;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+  width: 100%;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+.welcome-text{
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin: 14% 10%;
+  text-align: left;
+  font-family: Fredoka;
+  color:  #FFF;
+}
+
+.centre{
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin: 20% 10%;
+  text-align: left;
+}
+
+button{
+  align-items: center;
+  margin: 0px;
+  border: 0;
+  border-radius: 20px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5 px;
+  box-sizing: border-box;
+  color: #FFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  justify-content: center;
+  max-width: 100%;
+  min-width: 380px;
+  max-height: 100%;
+  min-height: 60px;
+  padding: 16px;
+  text-decoration: none;
+  user-select: contain;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+#b1{
+  background-image: linear-gradient(90deg, rgba(249,212,35,1) 0%, rgba(255,67,80,1) 100%);
+}
+
+.textbox{
+  position: relative;
+  width: float;
+  max-width: 100%;
+  min-width: 30%;
+  height: 6300px;
+  margin: 10% 10%;
+  text-align: left;
+  border-radius: 20px;
+  background-color: white;
+  padding: 60px;
+  resize: vertical;
+  overflow: auto;
+}
+
+.photo{
+  margin: 0;
+  width: auto;
+}
+
+.pythonimage1{
+  position: absolute;
+  width: float;
+  max-width: 250px;
+  margin: 3px 1000px;
+}
+
+.content-table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+}
+
+.content-table thead tr{
+  color: black;
+  text-align: center;
+  margin: 10px;
+  padding: 50px;
+  border-bottom: 2px solid #000000;
+  border-top: 2px solid #000000;
+  border-left: 2px solid #000000;
+  border-right: 2px solid #000000;
+}
+
+.content-table th
+.content-table td{
+  padding: 12px 50px;
+  align-items: center;
+  margin: 20px;
+}
+
+.content-table tbody tr{
+  border-bottom: 2px solid #dddddd;
+  border-left: 2px solid #dddddd;
+  border-right: 2px solid #dddddd;
+  padding: 12px 50px;
+}
+
+.content-table tbody tr:nth-of-type(even){
+  background-color: #f3f3f3;
+}
+
+.content-table tbody td{
+  border-left: 2px solid #dddddd;
+  border-right: 2px solid #dddddd;
+  padding: 12px 50px;
+}
+
+.phototimeline{
+  margin: 0;
+  width: auto;
+}
+
+.timeline{
+  position: absolute;
+  width: 500px;
+  margin: 10px 20px;
+}
+
+.photogoals{
+  margin: 0px;
+  width: auto;
+}
+
+.goals{
+  position: relative;
+  width: 600px;
+  margin: 10px;
+  position: center;
+}
+
+.discusionimage1{
+  position: absolute;
+  width: float;
+  max-width: 250px;
+  margin: -10px 1000px;
+  resize: both;
+  overflow: auto;
+}
+
+.textbox-discusion{
+  position: relative;
+  width: float ;
+  max-width: 1400px;
+  min-width: 30%;
+  height: 3000px;
+  margin: 11% 10%;
+  text-align: left;
+  border-radius: 20px;
+  background-color: white;
+  padding: 60px;
+  resize: vertical;
+  overflow: auto;
+}
+
+.textbox-references{
+  position: relative;
+  width: float;
+  max-width: 100%;
+  min-width: 30%;
+  height: 3000px;
+  margin: 0% 9%;
+  text-align: center;
+  border-radius: 20px;
+  background-color: none;
+  padding: 60px;
+  resize: vertical;
+  overflow: auto;
+  color: white;
+}
+
+.content-reference{
+  background-color: black;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+}
+
+.newsimage2{
+  position: relative;
+  width: float;
+  max-width: 600px;
+  margin: 10px;
+  position: center;
+  border-radius: 20px;
+}
+
+.textbox-news{
+  position: relative;
+  width: float;
+  max-width: 100%;
+  min-width: 30%;
+  height: 3400px;
+  margin: 11% 10%;
+  text-align: left;
+  border-radius: 20px;
+  background-color: white;
+  padding: 60px;
+  resize: vertical;
+  overflow: auto;
+}
+
+.anchor-ref{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
+.ref-text-col{
+  color: white;
+}
+
+.textbox-form{
+  position: relative;
+  width: 1000px;
+  max-width: 100%;
+  min-width: 30%;
+  height: float;
+  margin: 35% 10%;
+  text-align: left;
+  border-radius: 20px;
+  background-color: black;
+  padding: 60px;
+  resize: vertical;
+  overflow: auto;
+  color: white;
+}
+
+.eastercalculator-image{
+  position: absolute;
+  width: 800px;
+  height: auto;
+  margin: 2% 10%;
+}
+
+.form-format{
+  color: white
+}
